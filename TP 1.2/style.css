@@ -1,0 +1,59 @@
+* {
+	text-align: center;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.wrapper 
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header
+{
+	background-color:rgb(124, 144, 231);	/*defino el color de fonde del tag al que corresponda*/
+	float: left;	
+}
+nav
+{
+	background-color:rgb(124, 144, 231);
+	float: left;
+}
+aside
+{
+	background-color:rgb(124, 144, 231);
+	float: left;
+	width: 295px;	/*establezco el ancho del campo que contiene al tag*/
+	height: 410px;	/*establezco el largo del campo que contiene al tag*/
+	margin-right: 5px;	/*establezco de cuanto sera el margen y en que posicion estara*/
+}
+section
+{
+	background-color:rgb(124, 144, 231);
+	float: left;
+	width: 695px;
+	height: 410px;	
+	margin-left: 5px;
+	padding-left: 5%;	/*agrega el espacio que se desee a la izquierda y se desplaza hacia la derecha en diagonal hacia abajo*/
+}
+article
+{
+	background-color:rgb(75, 108, 207);
+	width: 600px;
+	height: 320px;
+	padding-left: 7%; 
+}
+details
+{
+	background-color:rgb(59, 59, 177);
+	width: 505px;
+	height: 260px;
+}
+footer
+{
+	background-color:rgb(124, 144, 231);
+	float: left;
+	height: 100px;
+}
