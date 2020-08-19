@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos\baseStyle.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 2</title>
+</head>
+<body>
+    <form action="php\action.php" method="POST">
+        <h1>Contact Form</h1>
+        <h3>
+            <span class="number">1</span>
+            Your basic info
+        </h3>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" name="Name" required style="width: 460px;">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" name="Email" required style="width: 460px;">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <br>
+        <input type="password" id="pass" name="Password" required style="width: 460px;">
+        <br>
+        <br>
+        <label for="bithday">Bithday</label>
+        <br>
+        <input type="text" id="bithday" name="Bithday" placeholder="dd\mm\aaaa" required style="width: 460px;">
+        <br>
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="sex">Male</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="sex">Female</label>
+        <h3>
+            <span class="number">2</span>
+            Your profile
+        </h3>
+        <label for="About you">About you</label>
+        <br>
+        <textarea name="About you" cols="63" rows="3"></textarea>
+        <br>
+        <label for="Role">Role</label>
+        <br>
+        <select name="Role">
+            <option value="Front-End developer">Front-End developer</option>
+            <option value="Back-End developer">Back-End developer</option>
+        </select>
+        <br>
+        <br>
+        <label for="Interests">Interests</label>
+        <br>
+        <input type="checkbox" name="interests1" id="interests1" value="Data Base">
+        <label for="interests1">Data Base</label>
+        <input type="checkbox" name="interests2" id="interests2" value="Design">
+        <label for="interests2">Design</label>
+        <input type="checkbox" name="interests3" id="interests3" value="Business">
+        <label for="interests3">Business</label>
+        <input type="checkbox" name="interests4" id="interests4" value="Unit Test">
+        <label for="interests4">Unit Test</label>
+        <input type="checkbox" name="interests5" id="interests5" value="Cloud Development">
+        <label for="interests5">Cloud Development</label>
+        <input type="checkbox" name="interests6" id="interests6" value="Web Development">
+        <label for="interests6">Web Development</label>
+        <br>
+        <br>
+        <button type="submit" name="Send" formmethod="POST">Send</button>
+        <button type="reset" name="Reset">Reset</button>    
+    </form>    
+</body>
+</html>

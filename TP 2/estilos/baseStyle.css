@@ -1,0 +1,88 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  }
+  
+  form {
+    max-width: 500px;
+    background: #f4f7f8;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  textarea{
+      min-height: 50px;
+      max-height: 200px;
+      margin-bottom: 5px; 
+      border-color: transparent;
+      background-color: rgb(224, 224, 224);
+  }
+
+  input{
+    border-color: transparent;
+    background-color: rgb(224, 224, 224);
+    color: rgb(128, 128, 128);
+  }
+
+  select{
+    border-color: transparent;
+    background-color: rgb(224, 224, 224);
+    color: rgb(128, 128, 128);
+    width: 460px;
+  }
+    
+  button {
+    padding: 19px 39px 18px 39px;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #3ac162;
+    background-color: white;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    width: 230px;
+  }
+
+  button:hover{
+      background-color: #5dd380;
+      color: white;
+  }
+  
+  label {
+    display: contents;
+    margin-bottom: 8px;
+  }
+
+  .number {
+    height: 30px;
+    width: 30px;
+    display: inline-block;    
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    background-color: #5dd380;
+    border-radius: 50%;
+  }
+
+  @media screen and (min-width: 500px) {
+  
+    form {
+      max-width: 500px;
+    }
+  
+  }
